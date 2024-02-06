@@ -1,0 +1,45 @@
+.statistics {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid teal;
+    background-color: antiquewhite;
+    border-radius: 4px;
+}
+
+.title {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #494747;
+    margin: 16px auto;
+}
+
+.stat-list {
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4px;
+    width: 50px;
+    background-color: cadetblue;
+}
+
+.stat-list li:nth-child(odd) {
+    background-color: cornflowerblue;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.percentage {
+    font-size: 18px;
+    font-weight: bold;
+}
