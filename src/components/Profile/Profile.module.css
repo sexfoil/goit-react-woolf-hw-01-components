@@ -8,6 +8,7 @@
     border-radius: 4px;
     font-size: 18px;
     overflow: hidden;
+    box-shadow: 1px 1px 8px 1px #121619;
 }
 
 .description {
